@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<style>
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #ccc;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 40px;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #f5f5f5;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-left: 5px solid #007BFF;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>ARTIST NAME</h1>
+    <nav>
+        <a href="#about">ABOUT</a>
+        <a href="#portfolio">PORTFOLIO</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>MULTI-INSTRUMENTALIST | PRODUCER | COMPOSER</h2>
+    <p>UPCOMING EP COMING SOON</p>
+</section>
+
+<section id="about">
+    <h2>ABOUT</h2>
+    <p>THIS ARTIST IS A MULTI-INSTRUMENTALIST, PRODUCER, AND COMPOSER CURRENTLY STUDYING MUSIC. WITH EXPERIENCE IN STUDIO PRODUCTION AND SOUND DESIGN, THEY CREATE IMMERSIVE AND EXPERIMENTAL SOUNDSCAPES.</p>
+    
+    <h2>EQUIPMENT & SOFTWARE</h2>
+    <ul>
+        <li>AUDIENT ID4 MK2</li>
+        <li>ARTURIA KEYLAB MK3 88 KEY</li>
+        <li>SHURE SM58</li>
+        <li>LOGIC PRO X</li>
+        <li>SERUM 2</li>
+        <li>ARP 2600</li>
+    </ul>
+
+    <h2>LOCATION & COURSE</h2>
+    <p>BASED IN [YOUR LOCATION]</p>
+    <p>STUDYING [COLLEGE COURSE]</p>
+
+    <h2>CONTACT</h2>
+    <p>EMAIL: YOUR@EMAIL.COM</p>
+
+    <div class="grid">
+        <img src="assets/IMG01.png" alt="image1">
+        <img src="assets/IMG02.png" alt="image2">
+        <img src="assets/IMG03.png" alt="image3">
+        <img src="assets/IMG04.png" alt="image4">
+        <img src="assets/IMG05.png" alt="image5">
+    </div>
+</section>
+
+<section id="portfolio">
+    <h2>PORTFOLIO</h2>
+    <div class="grid">
+        <div class="card">
+            <h3>COMPOSITION WORK</h3>
+            <p>ORIGINAL FILM SCORES AND EXPERIMENTAL COMPOSITIONS.</p>
+        </div>
+        <div class="card">
+            <h3>PRODUCTION WORK</h3>
+            <p>MUSIC PRODUCTION PROJECTS SHOWCASING SOUND DESIGN AND MIXING.</p>
+        </div>
+        <div class="card">
+            <h3>UPCOMING PROJECTS</h3>
+            <p>DEBUT EP CURRENTLY IN DEVELOPMENT.</p>
+        </div>
+    </div>
+</section>
+
+<div class="footer">
+    <p>© 2026 ARTIST NAME</p>
+</div>
+
+</body>
+</html>
